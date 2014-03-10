@@ -27,7 +27,7 @@ $(function(){
 		{
 			var meal = "Dinner";
 		}
-		$("#weatherbox").html(meal+ " at " + city + ", " + state + " <br> for " + time + " <br>" + temp + " degrees" + ", " + condition)
+		$("#weatherbox").html(meal+ " in " + city + ", " + state + " <br> at " + time + " <br>" + temp + " degrees" + ", " + condition)
 		if((condition.indexOf("Chance"))!= -1)
 		{
 			var chosenFood = possibility1[Math.floor(Math.random()*4)];
